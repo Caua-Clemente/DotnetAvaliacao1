@@ -8,14 +8,6 @@ namespace DotnetAvaliacao1
     public static class Academia
     {
         public static void linqIdadeMinMax(List<Treinador> lista){
-            linqIdadeMinMax(lista);
-        }
-
-        public static void linqIdadeMinMax(List<Cliente> lista){
-            linqIdadeMinMax(lista);
-        }
-
-        public static void linqIdadeMinMax(List<Pessoa> lista){
             Console.WriteLine($"Idade minima: ");
             int idadeMin = int.Parse(Console.ReadLine());
             
@@ -28,8 +20,26 @@ namespace DotnetAvaliacao1
             dataMinima.AddYears(-idadeMin);
             dataMaxima.AddYears(-idadeMax);
             
-            var novaLista = lista.Where(x => (x.DataNascimento >= dataMinima && x.DataNascimento <= dataMaxima));
-            Console.WriteLine($"Lista com idade entre {idadeMin} e {idadeMax}: ");
+            var novaLista = lista.Where(x => (x.DataNascimento <= dataMinima && x.DataNascimento >= dataMaxima));
+            Console.WriteLine($"Lista de treinadores com idade entre {idadeMin} e {idadeMax}: ");
+            Console.WriteLine(string.Join("\n", (novaLista.Select(x => x.Nome))));
+        }
+
+        public static void linqIdadeMinMax(List<Cliente> lista){
+            Console.WriteLine($"Idade minima: ");
+            int idadeMin = int.Parse(Console.ReadLine());
+            
+            Console.WriteLine($"Idade maxima: ");
+            int idadeMax = int.Parse(Console.ReadLine());
+
+            DateTime dataMinima = DateTime.Now;
+            DateTime dataMaxima = DateTime.Now;
+
+            dataMinima.AddYears(-idadeMin);
+            dataMaxima.AddYears(-idadeMax);
+            
+            var novaLista = lista.Where(x => (x.DataNascimento <= dataMinima && x.DataNascimento >= dataMaxima));
+            Console.WriteLine($"Lista de clientes com idade entre {idadeMin} e {idadeMax}: ");
             Console.WriteLine(string.Join("\n", (novaLista.Select(x => x.Nome))));
         }
 
@@ -37,7 +47,7 @@ namespace DotnetAvaliacao1
             Console.WriteLine($"IMC minimo: ");
             float imc = float.Parse(Console.ReadLine());
 
-            var novaLista = lista.Where(x => (x.Peso / (x.Altura* x.Altura) >= imc));
+            var novaLista = lista.Where(x => (x.Peso / (x.Altura * x.Altura) >= imc));
             Console.WriteLine($"Lista de clientes com IMC maior ou igual a {imc}: ");
             Console.WriteLine(string.Join("\n", (novaLista.Select(x => x.Nome))));
         }
@@ -52,7 +62,7 @@ namespace DotnetAvaliacao1
         public static void linqVelhoParaNovo(List<Cliente> lista){
             Console.WriteLine($"Lista de clientes do mais velho ao mais novo: ");
 
-            var novaLista = lista.OrderByDescending(x => x.DataNascimento);
+            var novaLista = lista.OrderBy(x => x.DataNascimento);
             Console.WriteLine(string.Join("\n", (novaLista.Select(x => x.Nome))));
         }
 
@@ -78,7 +88,7 @@ namespace DotnetAvaliacao1
             DateTime data = DateTime.Parse(Console.ReadLine());
             
             Console.WriteLine("Altura (em metros): ");
-            float altura = float.Parse(Console.ReadLine()) * 100;
+            float altura = float.Parse(Console.ReadLine());
 
             Console.WriteLine("Peso (em Kg): ");
             float peso = float.Parse(Console.ReadLine());

@@ -1,0 +1,15 @@
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/bin/Debug/net7.0/DotnetAvaliacao1
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/bin/Debug/net7.0/DotnetAvaliacao1.deps.json
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/bin/Debug/net7.0/DotnetAvaliacao1.runtimeconfig.json
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/bin/Debug/net7.0/DotnetAvaliacao1.dll
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/bin/Debug/net7.0/DotnetAvaliacao1.pdb
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/obj/Debug/net7.0/DotnetAvaliacao1.csproj.AssemblyReference.cache
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/obj/Debug/net7.0/DotnetAvaliacao1.GeneratedMSBuildEditorConfig.editorconfig
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/obj/Debug/net7.0/DotnetAvaliacao1.AssemblyInfoInputs.cache
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/obj/Debug/net7.0/DotnetAvaliacao1.AssemblyInfo.cs
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/obj/Debug/net7.0/DotnetAvaliacao1.csproj.CoreCompileInputs.cache
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/obj/Debug/net7.0/DotnetAvaliacao1.dll
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/obj/Debug/net7.0/refint/DotnetAvaliacao1.dll
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/obj/Debug/net7.0/DotnetAvaliacao1.pdb
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/obj/Debug/net7.0/DotnetAvaliacao1.genruntimeconfig.cache
+/home/caua-clemente-lima/Área de trabalho/dotnetProva1/DotnetAvaliacao1/obj/Debug/net7.0/ref/DotnetAvaliacao1.dll

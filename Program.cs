@@ -6,6 +6,7 @@ List<Cliente> listaClientes = new List<Cliente>();
 
 int acao = 0;
 do {
+    Console.WriteLine($"\nMenu de opcoes da academia: ");    
     Console.WriteLine($"1 - Treinadores com idade entre dois valores");
     Console.WriteLine($"2 - Clientes com idade entre dois valores");
     Console.WriteLine($"3 - Clientes com IMC maior que (n)");
@@ -13,7 +14,7 @@ do {
     Console.WriteLine($"5 - Clientes do mais velho para mais novo");
     Console.WriteLine($"6 - Treinadores e clientes aniversariantes do mês informado");
     Console.WriteLine($"7 - Criar cliente");
-    Console.WriteLine($"7 - Criar treinador");
+    Console.WriteLine($"8 - Criar treinador");
     Console.WriteLine($"0 - Sair");
     Console.WriteLine($"Digite uma opcao: ");
     acao = int.Parse(Console.ReadLine());
@@ -57,9 +58,7 @@ do {
         
         default:
             Console.WriteLine($"Opcao invalida");
-        break;
-        
-        
+        break;        
     }
 
 } while (acao != 0);
